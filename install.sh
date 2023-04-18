@@ -1,4 +1,4 @@
-sudo pacman -S bswpm sxhkd lightdm polybar
+sudo pacman -S bswpm sxhkd lightdm polybar gnome-terminal firefox
 mkdir -p ~/.config/{bspwm,sxhkd,polybar}
 cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
 cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
