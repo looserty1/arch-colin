@@ -1,4 +1,5 @@
 sudo pacman -S bspwm sxhkd lightdm polybar gnome-terminal firefox lightdm-gtk-greeter xorg
+mkdir ~/.config
 mkdir -p ~/.config/{bspwm,sxhkd,polybar}
 cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
 cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
