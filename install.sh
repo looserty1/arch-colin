@@ -1,3 +1,5 @@
+echo "Write your home directory for your user"
+read $HOME
 sudo pacman -S bspwm sxhkd lightdm polybar gnome-terminal firefox lightdm-gtk-greeter xorg
 sudo mkdir $HOME/.config
 sudo mkdir -p $HOME/.config/{bspwm,sxhkd,polybar}
